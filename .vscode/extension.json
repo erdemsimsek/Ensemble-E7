@@ -1,0 +1,6 @@
+{
+    "extensionDependencies": [
+        "ms-vscode.cpptools-extension-pack",
+        "marus25.cortex-debug"
+    ]
+}
