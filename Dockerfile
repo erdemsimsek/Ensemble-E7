@@ -4,6 +4,7 @@ WORKDIR /home/toolchain
 
 # Install required packages
 RUN apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends \
+    git \
     libncurses5 \
     curl \
     dos2unix \

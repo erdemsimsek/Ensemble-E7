@@ -1,0 +1,22 @@
+{
+  "name": "Alif E7 Development Environment",
+
+  "image": "eerdemsimsek/alif-e7-dev-env:1.0.1",
+  "workspaceFolder": "/home/alif",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/alif,type=bind,consistency=cached",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "marus25.cortex-debug",
+        "marus25.debug-tracker-vscode",
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.makefile-tools",
+        "ms-python.python"
+      ]
+    }
+  },
+  "runArgs": [
+       "--device=${localEnv:ALIF_SERIAL_PORT:/dev/ttyACM0}"
+    ]
+}
