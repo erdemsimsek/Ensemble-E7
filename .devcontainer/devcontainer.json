@@ -1,7 +1,7 @@
 {
   "name": "Alif E7 Development Environment",
 
-  "image": "eerdemsimsek/alif-e7-dev-env:1.0.1",
+  "image": "eerdemsimsek/alif-e7-dev-env:1.0.2",
   "workspaceFolder": "/home/alif",
   "workspaceMount": "source=${localWorkspaceFolder},target=/home/alif,type=bind,consistency=cached",
   "customizations": {
