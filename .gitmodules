@@ -34,3 +34,9 @@
 [submodule "dependencies/boardlib"]
 	path = dependencies/boardlib
 	url = https://github.com/alifsemi/alif_boardlib.git
+[submodule "dependencies/core-driver"]
+	path = dependencies/core-driver
+	url = https://review.mlplatform.org/ml/ethos-u/ethos-u-core-driver
+[submodule "dependencies/cmsis-ensemble"]
+	path = dependencies/cmsis-ensemble
+	url = https://github.com/alifsemi/alif_ensemble-cmsis-dfp.git
